@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hussamaldean al-daffaie, student, LIC=MPPLD-858UF-WF6I7-EQT76-TY5SQ-1RV0U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hussam\Documents\stm32projectsx\SPI_DMA_TX\SPI_DMA.uvprojx
+Project File Date:  10/03/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'STM32F407VGTx'
+compiling main.c...
+debug.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+led.h(9): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+led.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(79): warning:  #1-D: last line of file ends without a newline
+  		}
+main.c: 4 warnings, 0 errors
+compiling debug.c...
+debug.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+debug.c: 1 warning, 0 errors
+compiling spi.c...
+assembling startup_stm32f407xx.s...
+compiling system_stm32f4xx.c...
+compiling led.c...
+led.h(9): warning:  #1295-D: Deprecated declaration led_init - give arg types
+  void led_init();
+led.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+led.c(29): warning:  #1-D: last line of file ends without a newline
+  	}
+led.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=1448 RO-data=424 RW-data=16 ZI-data=1632  
+".\Objects\SPI_DMA.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F407VGTx
+  C:\Users\hussam\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\hussam\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
